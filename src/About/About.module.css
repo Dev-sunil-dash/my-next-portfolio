@@ -1,0 +1,44 @@
+.aboutContainer {
+    height: 600px;
+    background-color: #0e141e;
+    color: #fff;
+}
+
+.aboutSubContainer {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutContainer>div {
+    flex-grow: 1;
+}
+
+.leftContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 0.5rem solid white; */
+}
+
+.rightContainer {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.rightContainer>div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.rightContainer>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightContainer>div>div>img {}

@@ -1,0 +1,26 @@
+.introH4 {
+    font-size: 2rem;
+}
+
+.introH1 {
+    font-size: 5rem;
+}
+
+.introP {
+    font-size: 1.5rem;
+}
+
+.introLeft{
+    margin-top: 5%;
+}
+
+.cvButton {
+    width: 40%;
+    background-color: #c6daf9;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid #052c65;
+    margin-top: 25%;
+    min-width: 180px;
+}

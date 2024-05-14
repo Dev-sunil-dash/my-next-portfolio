@@ -1,0 +1,26 @@
+.projectContainer{
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectContainer>div{
+    height: 400px;
+    width: 30%;
+    background: #6f6c6c;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ;
+}
+
+.projectContainer > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 30px 36px rgba(0, 0, 0, 0.2);
+}
+
+.submitBtn{
+    background-color: #19376d;
+}
